@@ -1,0 +1,33 @@
+.ScoreBoard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 20px;
+    margin: 3rem auto;
+    
+}
+.score{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.x-score{
+    color: blueviolet;
+    border-bottom: 5px solid;
+    margin-left: 0.5em;
+}
+.o-score{
+    color: rgb(81, 255, 0);
+    border-bottom: 5px solid;
+    margin-right: 0.5em;
+}
+
+.inactive{
+    border-bottom: 5px solid transparent;
+}

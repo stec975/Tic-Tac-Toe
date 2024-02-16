@@ -1,0 +1,8 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin: 0;
+  background: linear-gradient(to left, rgba(105, 5, 5, 0.749), rgb(0, 0, 141));
+  font-family: "Fredoka", sans-serif;
+}
