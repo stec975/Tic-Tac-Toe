@@ -38,14 +38,14 @@ function App() {
    
      if(winner){
       if(winner === "X"){
-        let {oScore} = scores;
-        oScore += 1;
-        setScores({...scores, oScore})
-      }
-      else{
         let {xScore} = scores;
         xScore += 1;
         setScores({...scores, xScore})
+      }
+      else{
+        let {oScore} = scores;
+        oScore += 1;
+        setScores({...scores, oScore})
       } 
     }
     
