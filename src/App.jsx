@@ -43,9 +43,9 @@ function App() {
         setScores({...scores, oScore})
       }
       else{
-        let {oScore} = scores;
-        oScore += 1;
-        setScores({...scores, oScore})
+        let {xScore} = scores;
+        xScore += 1;
+        setScores({...scores, xScore})
       } 
     }
     
